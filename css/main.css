@@ -1,0 +1,57 @@
+#main {
+	margin: 10px;
+	background-color: rgb(32, 32, 32);
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: rgb(49, 49, 49);
+	border-radius: 10px;
+}
+
+#title {
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+#main-content {
+	max-width: 600px;
+	margin: auto;
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: rgb(22, 22, 22);
+	border-radius: 10px;
+}
+
+#image {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(55, 139, 165);
+}
+a:hover {
+	background-color: rgb(255, 255, 255);
+	color: #000;
+}
